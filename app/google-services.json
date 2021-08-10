@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400273925479",
+    "project_id": "sitewebmod3",
+    "storage_bucket": "sitewebmod3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400273925479:android:485eaeb8e1c317a5cd3bc2",
+        "android_client_info": {
+          "package_name": "re.etienne.firebaseexemple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400273925479-lcj1ppqaen72vctiij7uvl2f0i52d2dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHbWR0z177xivUIUIgdq_apbG-UQ_B7pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400273925479-lcj1ppqaen72vctiij7uvl2f0i52d2dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
