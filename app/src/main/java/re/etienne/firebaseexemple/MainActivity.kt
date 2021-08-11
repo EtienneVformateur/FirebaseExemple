@@ -1,5 +1,6 @@
 package re.etienne.firebaseexemple
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -18,8 +19,12 @@ class MainActivity : AppCompatActivity() {
         val bt = findViewById<Button>(R.id.button)
         val user = findViewById<EditText>(R.id.user)
         val pwd = findViewById<EditText>(R.id.pwd)
+        val btcreer = findViewById<Button>(R.id.btCreer)
 
-
+        btcreer.setOnClickListener {
+            val intent = Intent(this,RegisterActivity::class.java)
+            startActivity(intent)
+        }
 
         bt.setOnClickListener {
             val email = user.text.toString()

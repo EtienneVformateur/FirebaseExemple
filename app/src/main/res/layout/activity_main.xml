@@ -29,4 +29,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Se connecter" />
+
+    <Button
+        android:id="@+id/btCreer"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:textColor="#2196F3" />
 </LinearLayout>
